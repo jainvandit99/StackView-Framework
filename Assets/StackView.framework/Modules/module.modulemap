@@ -1,0 +1,11 @@
+framework module StackView {
+  umbrella header "StackView.h"
+
+  export *
+  module * { export * }
+}
+
+module StackView.Swift {
+    header "StackView-Swift.h"
+    requires objc
+}

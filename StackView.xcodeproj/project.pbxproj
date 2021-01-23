@@ -8,12 +8,22 @@
 
 /* Begin PBXBuildFile section */
 		065AC55A25BC985300C9DEE3 /* StackView.h in Headers */ = {isa = PBXBuildFile; fileRef = 065AC55825BC985300C9DEE3 /* StackView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		065AC56C25BC989D00C9DEE3 /* StackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 065AC56B25BC989D00C9DEE3 /* StackView.swift */; };
+		065AC57225BC98F100C9DEE3 /* StackCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 065AC57125BC98F100C9DEE3 /* StackCardView.swift */; };
+		065AC57625BC994100C9DEE3 /* States.swift in Sources */ = {isa = PBXBuildFile; fileRef = 065AC57525BC994100C9DEE3 /* States.swift */; };
+		065AC57925BC997A00C9DEE3 /* StackViewDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 065AC57825BC997A00C9DEE3 /* StackViewDelegate.swift */; };
+		065AC57C25BC99B500C9DEE3 /* Extension-UIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 065AC57B25BC99B500C9DEE3 /* Extension-UIView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		065AC55525BC985300C9DEE3 /* StackView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = StackView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		065AC55825BC985300C9DEE3 /* StackView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = StackView.h; sourceTree = "<group>"; };
 		065AC55925BC985300C9DEE3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		065AC56B25BC989D00C9DEE3 /* StackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StackView.swift; sourceTree = "<group>"; };
+		065AC57125BC98F100C9DEE3 /* StackCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StackCardView.swift; sourceTree = "<group>"; };
+		065AC57525BC994100C9DEE3 /* States.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = States.swift; sourceTree = "<group>"; };
+		065AC57825BC997A00C9DEE3 /* StackViewDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StackViewDelegate.swift; sourceTree = "<group>"; };
+		065AC57B25BC99B500C9DEE3 /* Extension-UIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extension-UIView.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -48,6 +58,11 @@
 			children = (
 				065AC55825BC985300C9DEE3 /* StackView.h */,
 				065AC55925BC985300C9DEE3 /* Info.plist */,
+				065AC56B25BC989D00C9DEE3 /* StackView.swift */,
+				065AC57125BC98F100C9DEE3 /* StackCardView.swift */,
+				065AC57525BC994100C9DEE3 /* States.swift */,
+				065AC57825BC997A00C9DEE3 /* StackViewDelegate.swift */,
+				065AC57B25BC99B500C9DEE3 /* Extension-UIView.swift */,
 			);
 			path = StackView;
 			sourceTree = "<group>";
@@ -94,6 +109,7 @@
 				TargetAttributes = {
 					065AC55425BC985300C9DEE3 = {
 						CreatedOnToolsVersion = 12.3;
+						LastSwiftMigration = 1230;
 					};
 				};
 			};
@@ -130,6 +146,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				065AC57625BC994100C9DEE3 /* States.swift in Sources */,
+				065AC57225BC98F100C9DEE3 /* StackCardView.swift in Sources */,
+				065AC57925BC997A00C9DEE3 /* StackViewDelegate.swift in Sources */,
+				065AC56C25BC989D00C9DEE3 /* StackView.swift in Sources */,
+				065AC57C25BC99B500C9DEE3 /* Extension-UIView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -261,6 +282,7 @@
 		065AC55E25BC985300C9DEE3 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
@@ -276,6 +298,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = jainvandit.StackView;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -284,6 +307,7 @@
 		065AC55F25BC985300C9DEE3 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
