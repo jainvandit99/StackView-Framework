@@ -1,4 +1,7 @@
 # Stack View Framework
+[![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)]() 
+![](https://img.shields.io/badge/Swift-Successful-orange)
+[![GitHub license](https://img.shields.io/github/license/jainvandit99/StackView-Framework)](LICENSE)
 
 This is a framework inspired by [this dribble shot](https://dribbble.com/shots/5721735-InVision-Studio-Spaced-App) and is an abstraction layer that controls and defines the relevant stack card views. 
 
