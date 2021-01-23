@@ -13,7 +13,7 @@ Better quality of this video can be viewed [here](https://raw.githubusercontent.
 ## Usage
 
 ### Installation 
-Download the framework file from [here](Assets/StackView.framework.zip) and place it in the root directory of your Xcode project as show in the image below
+Download the framework file from [here](Assets/StackView.framework.zip?raw=true) and place it in the root directory of your Xcode project as show in the image below
 
 ![frameworkDirectory](Assets/frameworkDirectory.png)
 
