@@ -8,12 +8,12 @@ This is a framework inspired by [this dribble shot](https://dribbble.com/shots/5
   <img height="300" src="Assets/screenGrab.gif">
 </p>
 
-Better quality of this video can be viewed [here](Assets/screenGrab.mov).
+Better quality of this video can be viewed [here](https://raw.githubusercontent.com/jainvandit99/StackView-Framework/main/Assets/screenGrab.mov).
 
 ## Usage
 
 ### Installation 
-Download the framework file from [here](Assets/StackView.framework) and place it in the root directory of your Xcode project as show in the image below
+Download the framework file from [here](Assets/StackView.framework.zip) and place it in the root directory of your Xcode project as show in the image below
 
 ![frameworkDirectory](Assets/frameworkDirectory.png)
 
