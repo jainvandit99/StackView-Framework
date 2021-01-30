@@ -45,7 +45,7 @@ private var cardViews = [StackCardView]()
 
 <p align="center">
   <img height="500" src="Assets/ViewHeirarchy.png">
-</p>Assets/ViewHeirarchy.png
+</p>
 
 ```primaryView``` is mandatory for all cards, while the ```bottomView``` is mandatory for all but the first card. 
 
